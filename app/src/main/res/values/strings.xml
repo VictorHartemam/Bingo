@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bingo</string>
+    <string name="sortear_numero">SORTEAR NÚMERO</string>
+    <string name="sortear">SORTEAR</string>
+    <string name="n_mero_sorteado">Números Sorteados:</string>
+    <string name="numeros_sorteados">Números Sorteados</string>
+</resources>
