@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="7"
+    android:columnCount="1">
+
+    <Button
+        android:id="@+id/sortearButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sortearPedra"
+        android:text="@string/sortear"
+        android:layout_row="0"
+        android:layout_column="0"/>
+
+    <TextView
+        android:id="@+id/numeroTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_row="1"
+        android:layout_column="0"/>
+
+    <TextView
+        android:id="@+id/numeroSorteadoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/numeros_sorteados"
+        android:layout_row="2"
+        android:layout_column="0"/>
+
+    <TextView
+        android:id="@+id/card1TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_row="3"
+        android:layout_column="0"/>
+
+    <TextView
+        android:id="@+id/card2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_row="4"
+        android:layout_column="0"/>
+
+    <TextView
+        android:id="@+id/card3TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_row="5"
+        android:layout_column="0"/>
+
+    <TextView
+        android:id="@+id/bingoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="0"/>
+
+</GridLayout>
