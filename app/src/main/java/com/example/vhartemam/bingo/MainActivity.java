@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.relative_layout_activity_main);
 
         //Após criar a tela
         geraNumeroRandom = new Random(System.currentTimeMillis());
